@@ -19,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
+        setupUM()
+        
         //应用程序额外设置
         setupAdditions()
         
@@ -31,6 +33,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         loadAppInfo()
         
         return true
+    }
+    
+    //设置系统回调
+    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        
+        let result = UMSocialManager.default().handleOpen(url, sourceApplication: sourceApplication, annotation: annotation)
+        if !result {
+            //其他SDK回调
+            
+        }
+        return result
     }
 
 }
