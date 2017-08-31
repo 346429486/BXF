@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90E02D7C0BB5734D1B293446 /* Pods_KeepHappy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B510BE70698C836A2241AE9 /* Pods_KeepHappy.framework */; };
+		F7142D131F56B29500E4ECD0 /* BXFCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7142D121F56B29500E4ECD0 /* BXFCommon.swift */; };
+		F7142D1E1F56B35C00E4ECD0 /* BXFMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7142D1B1F56B35C00E4ECD0 /* BXFMainViewController.swift */; };
+		F7142D1F1F56B35C00E4ECD0 /* BXFNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7142D1C1F56B35C00E4ECD0 /* BXFNavigationController.swift */; };
+		F7142D201F56B35C00E4ECD0 /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = F7142D1D1F56B35C00E4ECD0 /* main.json */; };
+		F7142D241F56CA4D00E4ECD0 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7142D231F56CA4D00E4ECD0 /* Bundle+Extensions.swift */; };
+		F7142D271F56CF7500E4ECD0 /* BXFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7142D261F56CF7500E4ECD0 /* BXFViewController.swift */; };
+		F794604B1F57949B00C7FD2C /* BXFNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794604A1F57949B00C7FD2C /* BXFNetworkManager.swift */; };
+		F79FE65A1F56A6FA00591B6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79FE6591F56A6FA00591B6E /* AppDelegate.swift */; };
+		F79FE6611F56A6FA00591B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F79FE6601F56A6FA00591B6E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5ACDA91F91F428036A7E57BC /* Pods-KeepHappy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepHappy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeepHappy/Pods-KeepHappy.debug.xcconfig"; sourceTree = "<group>"; };
+		6B510BE70698C836A2241AE9 /* Pods_KeepHappy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeepHappy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD779101496741572197CC20 /* Pods-KeepHappy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepHappy.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeepHappy/Pods-KeepHappy.release.xcconfig"; sourceTree = "<group>"; };
+		F7142D121F56B29500E4ECD0 /* BXFCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFCommon.swift; sourceTree = "<group>"; };
+		F7142D1B1F56B35C00E4ECD0 /* BXFMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFMainViewController.swift; sourceTree = "<group>"; };
+		F7142D1C1F56B35C00E4ECD0 /* BXFNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFNavigationController.swift; sourceTree = "<group>"; };
+		F7142D1D1F56B35C00E4ECD0 /* main.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main.json; sourceTree = "<group>"; };
+		F7142D231F56CA4D00E4ECD0 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		F7142D261F56CF7500E4ECD0 /* BXFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFViewController.swift; sourceTree = "<group>"; };
+		F794604A1F57949B00C7FD2C /* BXFNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFNetworkManager.swift; sourceTree = "<group>"; };
+		F79FE6561F56A6FA00591B6E /* KeepHappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeepHappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F79FE6591F56A6FA00591B6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F79FE6601F56A6FA00591B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F79FE6651F56A6FA00591B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F79FE6531F56A6FA00591B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E02D7C0BB5734D1B293446 /* Pods_KeepHappy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D617C450C3BC20465AFBBFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5ACDA91F91F428036A7E57BC /* Pods-KeepHappy.debug.xcconfig */,
+				CD779101496741572197CC20 /* Pods-KeepHappy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A956850FC36B41148605B5DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B510BE70698C836A2241AE9 /* Pods_KeepHappy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7142D071F56B0A100E4ECD0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F7142D0A1F56B0A100E4ECD0 /* View */,
+				F7142D0B1F56B0A100E4ECD0 /* ViewModel */,
+				F7142D081F56B0A100E4ECD0 /* Model */,
+				F7142D091F56B0A100E4ECD0 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F7142D081F56B0A100E4ECD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F7142D091F56B0A100E4ECD0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F7142D0D1F56B18D00E4ECD0 /* Addtions */,
+				F7142D0E1F56B18D00E4ECD0 /* Extensions */,
+				F7142D0F1F56B18D00E4ECD0 /* Network */,
+				F7142D101F56B18D00E4ECD0 /* UI框架 */,
+				F7142D121F56B29500E4ECD0 /* BXFCommon.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		F7142D0A1F56B0A100E4ECD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7142D111F56B1B600E4ECD0 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7142D0B1F56B0A100E4ECD0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F7142D0D1F56B18D00E4ECD0 /* Addtions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Addtions;
+			sourceTree = "<group>";
+		};
+		F7142D0E1F56B18D00E4ECD0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F7142D231F56CA4D00E4ECD0 /* Bundle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F7142D0F1F56B18D00E4ECD0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F794604A1F57949B00C7FD2C /* BXFNetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F7142D101F56B18D00E4ECD0 /* UI框架 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UI框架";
+			sourceTree = "<group>";
+		};
+		F7142D111F56B1B600E4ECD0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F7142D1A1F56B35C00E4ECD0 /* MainController */,
+				F7142D251F56CF4B00E4ECD0 /* 测试 */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F7142D1A1F56B35C00E4ECD0 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				F7142D1D1F56B35C00E4ECD0 /* main.json */,
+				F7142D1B1F56B35C00E4ECD0 /* BXFMainViewController.swift */,
+				F7142D1C1F56B35C00E4ECD0 /* BXFNavigationController.swift */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		F7142D251F56CF4B00E4ECD0 /* 测试 */ = {
+			isa = PBXGroup;
+			children = (
+				F7142D261F56CF7500E4ECD0 /* BXFViewController.swift */,
+			);
+			path = "测试";
+			sourceTree = "<group>";
+		};
+		F79FE64D1F56A6FA00591B6E = {
+			isa = PBXGroup;
+			children = (
+				F79FE6581F56A6FA00591B6E /* KeepHappy */,
+				F79FE6571F56A6FA00591B6E /* Products */,
+				0D617C450C3BC20465AFBBFE /* Pods */,
+				A956850FC36B41148605B5DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F79FE6571F56A6FA00591B6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F79FE6561F56A6FA00591B6E /* KeepHappy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F79FE6581F56A6FA00591B6E /* KeepHappy */ = {
+			isa = PBXGroup;
+			children = (
+				F7142D071F56B0A100E4ECD0 /* Classes */,
+				F79FE6591F56A6FA00591B6E /* AppDelegate.swift */,
+				F79FE6601F56A6FA00591B6E /* Assets.xcassets */,
+				F79FE6651F56A6FA00591B6E /* Info.plist */,
+			);
+			path = KeepHappy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F79FE6551F56A6FA00591B6E /* KeepHappy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F79FE6681F56A6FA00591B6E /* Build configuration list for PBXNativeTarget "KeepHappy" */;
+			buildPhases = (
+				93A81C8C1BF4537D2325D966 /* [CP] Check Pods Manifest.lock */,
+				F79FE6521F56A6FA00591B6E /* Sources */,
+				F79FE6531F56A6FA00591B6E /* Frameworks */,
+				F79FE6541F56A6FA00591B6E /* Resources */,
+				2867B6C3BF920D2DC58F0BAD /* [CP] Embed Pods Frameworks */,
+				013B0BD915E5AC522E22E640 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeepHappy;
+			productName = KeepHappy;
+			productReference = F79FE6561F56A6FA00591B6E /* KeepHappy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F79FE64E1F56A6FA00591B6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BXF;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BXF;
+				TargetAttributes = {
+					F79FE6551F56A6FA00591B6E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F79FE6511F56A6FA00591B6E /* Build configuration list for PBXProject "KeepHappy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F79FE64D1F56A6FA00591B6E;
+			productRefGroup = F79FE6571F56A6FA00591B6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F79FE6551F56A6FA00591B6E /* KeepHappy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F79FE6541F56A6FA00591B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7142D201F56B35C00E4ECD0 /* main.json in Resources */,
+				F79FE6611F56A6FA00591B6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		013B0BD915E5AC522E22E640 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KeepHappy/Pods-KeepHappy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2867B6C3BF920D2DC58F0BAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KeepHappy/Pods-KeepHappy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KeepHappy/Pods-KeepHappy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93A81C8C1BF4537D2325D966 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeepHappy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F79FE6521F56A6FA00591B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7142D1F1F56B35C00E4ECD0 /* BXFNavigationController.swift in Sources */,
+				F794604B1F57949B00C7FD2C /* BXFNetworkManager.swift in Sources */,
+				F7142D271F56CF7500E4ECD0 /* BXFViewController.swift in Sources */,
+				F7142D241F56CA4D00E4ECD0 /* Bundle+Extensions.swift in Sources */,
+				F79FE65A1F56A6FA00591B6E /* AppDelegate.swift in Sources */,
+				F7142D1E1F56B35C00E4ECD0 /* BXFMainViewController.swift in Sources */,
+				F7142D131F56B29500E4ECD0 /* BXFCommon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F79FE6661F56A6FA00591B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F79FE6671F56A6FA00591B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F79FE6691F56A6FA00591B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ACDA91F91F428036A7E57BC /* Pods-KeepHappy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = KeepHappy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GXH.KeepHappy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F79FE66A1F56A6FA00591B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD779101496741572197CC20 /* Pods-KeepHappy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = KeepHappy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GXH.KeepHappy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F79FE6511F56A6FA00591B6E /* Build configuration list for PBXProject "KeepHappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F79FE6661F56A6FA00591B6E /* Debug */,
+				F79FE6671F56A6FA00591B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F79FE6681F56A6FA00591B6E /* Build configuration list for PBXNativeTarget "KeepHappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F79FE6691F56A6FA00591B6E /* Debug */,
+				F79FE66A1F56A6FA00591B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F79FE64E1F56A6FA00591B6E /* Project object */;
+}

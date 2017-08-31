@@ -1,0 +1,6 @@
+framework module Pods_KeepHappy {
+  umbrella header "Pods-KeepHappy-umbrella.h"
+
+  export *
+  module * { export * }
+}
