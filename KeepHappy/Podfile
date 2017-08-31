@@ -8,7 +8,9 @@ pod "SDWebImage"
 pod "YYModel"
 pod "FMDB"
 pod "SVProgressHUD"
+
 pod "UMengUShare/UI"
 pod "UMengUShare/Social/ReducedWeChat"
+pod "UMengAnalytics-NO-IDFA"
 
 end

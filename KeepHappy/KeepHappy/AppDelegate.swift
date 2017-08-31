@@ -19,7 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        setupUM()
+        //配置友盟登录
+        setupUMAuth()
+        
+        //配置友盟统计
+        setupUMMobClick()
         
         //应用程序额外设置
         setupAdditions()
