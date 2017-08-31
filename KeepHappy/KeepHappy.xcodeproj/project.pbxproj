@@ -15,6 +15,7 @@
 		F7142D241F56CA4D00E4ECD0 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7142D231F56CA4D00E4ECD0 /* Bundle+Extensions.swift */; };
 		F7142D271F56CF7500E4ECD0 /* BXFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7142D261F56CF7500E4ECD0 /* BXFViewController.swift */; };
 		F794604B1F57949B00C7FD2C /* BXFNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794604A1F57949B00C7FD2C /* BXFNetworkManager.swift */; };
+		F794604D1F57D09000C7FD2C /* AppDelegate+UM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794604C1F57D09000C7FD2C /* AppDelegate+UM.swift */; };
 		F79FE65A1F56A6FA00591B6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79FE6591F56A6FA00591B6E /* AppDelegate.swift */; };
 		F79FE6611F56A6FA00591B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F79FE6601F56A6FA00591B6E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		F7142D231F56CA4D00E4ECD0 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
 		F7142D261F56CF7500E4ECD0 /* BXFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFViewController.swift; sourceTree = "<group>"; };
 		F794604A1F57949B00C7FD2C /* BXFNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFNetworkManager.swift; sourceTree = "<group>"; };
+		F794604C1F57D09000C7FD2C /* AppDelegate+UM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+UM.swift"; sourceTree = "<group>"; };
 		F79FE6561F56A6FA00591B6E /* KeepHappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeepHappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F79FE6591F56A6FA00591B6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F79FE6601F56A6FA00591B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				F7142D231F56CA4D00E4ECD0 /* Bundle+Extensions.swift */,
+				F794604C1F57D09000C7FD2C /* AppDelegate+UM.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F794604D1F57D09000C7FD2C /* AppDelegate+UM.swift in Sources */,
 				F7142D1F1F56B35C00E4ECD0 /* BXFNavigationController.swift in Sources */,
 				F794604B1F57949B00C7FD2C /* BXFNetworkManager.swift in Sources */,
 				F7142D271F56CF7500E4ECD0 /* BXFViewController.swift in Sources */,
@@ -448,7 +452,7 @@
 				INFOPLIST_FILE = KeepHappy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GXH.KeepHappy;
+				PRODUCT_BUNDLE_IDENTIFIER = BXH.KeepHappy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -463,7 +467,7 @@
 				INFOPLIST_FILE = KeepHappy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GXH.KeepHappy;
+				PRODUCT_BUNDLE_IDENTIFIER = BXH.KeepHappy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
