@@ -23,9 +23,6 @@
 		F75D3B791F58FF1400F0D544 /* HYTitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75D3B731F58FF1400F0D544 /* HYTitleStyle.swift */; };
 		F75D3B7A1F58FF1400F0D544 /* HYTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75D3B741F58FF1400F0D544 /* HYTitleView.swift */; };
 		F75D3B7C1F58FFBF00F0D544 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75D3B7B1F58FFBF00F0D544 /* UIColor-Extension.swift */; };
-		F75D3B841F5903F100F0D544 /* BXFHappyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75D3B831F5903F100F0D544 /* BXFHappyViewController.swift */; };
-		F75D3B861F5904E900F0D544 /* BXFFamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75D3B851F5904E900F0D544 /* BXFFamilyViewController.swift */; };
-		F75D3B881F5904F900F0D544 /* BXFProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75D3B871F5904F900F0D544 /* BXFProfileViewController.swift */; };
 		F794604B1F57949B00C7FD2C /* BXFNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794604A1F57949B00C7FD2C /* BXFNetworkManager.swift */; };
 		F794604D1F57D09000C7FD2C /* AppDelegate+UM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794604C1F57D09000C7FD2C /* AppDelegate+UM.swift */; };
 		F79460771F581D4B00C7FD2C /* BXFUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79460761F581D4B00C7FD2C /* BXFUserAccount.swift */; };
@@ -43,6 +40,12 @@
 		F794609C1F58207300C7FD2C /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F79460901F58207300C7FD2C /* UIViewController+CZAddition.m */; };
 		F79FE65A1F56A6FA00591B6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79FE6591F56A6FA00591B6E /* AppDelegate.swift */; };
 		F79FE6611F56A6FA00591B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F79FE6601F56A6FA00591B6E /* Assets.xcassets */; };
+		F7A059F31F59165B00B86E7A /* BXFHappyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A059F21F59165B00B86E7A /* BXFHappyType.swift */; };
+		F7A05A061F591BA200B86E7A /* BXFFamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A05A001F591BA200B86E7A /* BXFFamilyViewController.swift */; };
+		F7A05A071F591BA200B86E7A /* BXFAnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A05A021F591BA200B86E7A /* BXFAnchorViewController.swift */; };
+		F7A05A081F591BA200B86E7A /* BXFHappyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A05A031F591BA200B86E7A /* BXFHappyViewController.swift */; };
+		F7A05A091F591BA200B86E7A /* BXFProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A05A051F591BA200B86E7A /* BXFProfileViewController.swift */; };
+		F7A05A0B1F591F1100B86E7A /* types.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7A05A0A1F591F1100B86E7A /* types.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,9 +67,6 @@
 		F75D3B731F58FF1400F0D544 /* HYTitleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYTitleStyle.swift; sourceTree = "<group>"; };
 		F75D3B741F58FF1400F0D544 /* HYTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYTitleView.swift; sourceTree = "<group>"; };
 		F75D3B7B1F58FFBF00F0D544 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
-		F75D3B831F5903F100F0D544 /* BXFHappyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFHappyViewController.swift; sourceTree = "<group>"; };
-		F75D3B851F5904E900F0D544 /* BXFFamilyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFFamilyViewController.swift; sourceTree = "<group>"; };
-		F75D3B871F5904F900F0D544 /* BXFProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFProfileViewController.swift; sourceTree = "<group>"; };
 		F794604A1F57949B00C7FD2C /* BXFNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFNetworkManager.swift; sourceTree = "<group>"; };
 		F794604C1F57D09000C7FD2C /* AppDelegate+UM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+UM.swift"; sourceTree = "<group>"; };
 		F794604E1F57F63E00C7FD2C /* KeepHappy-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KeepHappy-Bridge.h"; sourceTree = "<group>"; };
@@ -100,6 +100,12 @@
 		F79FE6591F56A6FA00591B6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F79FE6601F56A6FA00591B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F79FE6651F56A6FA00591B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A059F21F59165B00B86E7A /* BXFHappyType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFHappyType.swift; sourceTree = "<group>"; };
+		F7A05A001F591BA200B86E7A /* BXFFamilyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFFamilyViewController.swift; sourceTree = "<group>"; };
+		F7A05A021F591BA200B86E7A /* BXFAnchorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFAnchorViewController.swift; sourceTree = "<group>"; };
+		F7A05A031F591BA200B86E7A /* BXFHappyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFHappyViewController.swift; sourceTree = "<group>"; };
+		F7A05A051F591BA200B86E7A /* BXFProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFProfileViewController.swift; sourceTree = "<group>"; };
+		F7A05A0A1F591F1100B86E7A /* types.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = types.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +151,9 @@
 		F7142D081F56B0A100E4ECD0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F7A059F01F59160600B86E7A /* HappyModel */,
+				F7A059EF1F59160600B86E7A /* FamilyModel */,
+				F7A059F11F59160600B86E7A /* ProfileModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +174,9 @@
 			isa = PBXGroup;
 			children = (
 				F7142D111F56B1B600E4ECD0 /* Main */,
+				F7A05A011F591BA200B86E7A /* Happy */,
+				F7A059FF1F591BA200B86E7A /* Family */,
+				F7A05A041F591BA200B86E7A /* Profile */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -240,9 +252,6 @@
 			children = (
 				F7142D1A1F56B35C00E4ECD0 /* MainController */,
 				F75D3B691F58D90700F0D544 /* NewFeature */,
-				F75D3B811F59031F00F0D544 /* Happy */,
-				F75D3B801F59031F00F0D544 /* Family */,
-				F75D3B821F59031F00F0D544 /* Profile */,
 				F7142D251F56CF4B00E4ECD0 /* 测试 */,
 				F75D3B6C1F58E7BF00F0D544 /* BXFBaseViewController.swift */,
 			);
@@ -288,30 +297,6 @@
 			path = HYPageView;
 			sourceTree = "<group>";
 		};
-		F75D3B801F59031F00F0D544 /* Family */ = {
-			isa = PBXGroup;
-			children = (
-				F75D3B851F5904E900F0D544 /* BXFFamilyViewController.swift */,
-			);
-			path = Family;
-			sourceTree = "<group>";
-		};
-		F75D3B811F59031F00F0D544 /* Happy */ = {
-			isa = PBXGroup;
-			children = (
-				F75D3B831F5903F100F0D544 /* BXFHappyViewController.swift */,
-			);
-			path = Happy;
-			sourceTree = "<group>";
-		};
-		F75D3B821F59031F00F0D544 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				F75D3B871F5904F900F0D544 /* BXFProfileViewController.swift */,
-			);
-			path = Profile;
-			sourceTree = "<group>";
-		};
 		F79460751F581D0900C7FD2C /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -348,6 +333,54 @@
 				F79FE6651F56A6FA00591B6E /* Info.plist */,
 			);
 			path = KeepHappy;
+			sourceTree = "<group>";
+		};
+		F7A059EF1F59160600B86E7A /* FamilyModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FamilyModel;
+			sourceTree = "<group>";
+		};
+		F7A059F01F59160600B86E7A /* HappyModel */ = {
+			isa = PBXGroup;
+			children = (
+				F7A05A0A1F591F1100B86E7A /* types.plist */,
+				F7A059F21F59165B00B86E7A /* BXFHappyType.swift */,
+			);
+			path = HappyModel;
+			sourceTree = "<group>";
+		};
+		F7A059F11F59160600B86E7A /* ProfileModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProfileModel;
+			sourceTree = "<group>";
+		};
+		F7A059FF1F591BA200B86E7A /* Family */ = {
+			isa = PBXGroup;
+			children = (
+				F7A05A001F591BA200B86E7A /* BXFFamilyViewController.swift */,
+			);
+			path = Family;
+			sourceTree = "<group>";
+		};
+		F7A05A011F591BA200B86E7A /* Happy */ = {
+			isa = PBXGroup;
+			children = (
+				F7A05A031F591BA200B86E7A /* BXFHappyViewController.swift */,
+				F7A05A021F591BA200B86E7A /* BXFAnchorViewController.swift */,
+			);
+			path = Happy;
+			sourceTree = "<group>";
+		};
+		F7A05A041F591BA200B86E7A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F7A05A051F591BA200B86E7A /* BXFProfileViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,6 +446,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A05A0B1F591F1100B86E7A /* types.plist in Resources */,
 				F7142D201F56B35C00E4ECD0 /* main.json in Resources */,
 				F79FE6611F56A6FA00591B6E /* Assets.xcassets in Resources */,
 			);
@@ -491,7 +525,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F75D3B881F5904F900F0D544 /* BXFProfileViewController.swift in Sources */,
 				F794604D1F57D09000C7FD2C /* AppDelegate+UM.swift in Sources */,
 				F75D3B7C1F58FFBF00F0D544 /* UIColor-Extension.swift in Sources */,
 				F79460961F58207300C7FD2C /* NSString+CZPath.m in Sources */,
@@ -500,29 +533,32 @@
 				F75D3B781F58FF1400F0D544 /* HYPageView.swift in Sources */,
 				F75D3B7A1F58FF1400F0D544 /* HYTitleView.swift in Sources */,
 				F75D3B761F58FF1400F0D544 /* HYContentView.swift in Sources */,
+				F7A05A091F591BA200B86E7A /* BXFProfileViewController.swift in Sources */,
 				F79460981F58207300C7FD2C /* UIColor+CZAddition.m in Sources */,
 				F794604B1F57949B00C7FD2C /* BXFNetworkManager.swift in Sources */,
 				F7142D271F56CF7500E4ECD0 /* BXFViewController.swift in Sources */,
+				F7A05A071F591BA200B86E7A /* BXFAnchorViewController.swift in Sources */,
 				F79460771F581D4B00C7FD2C /* BXFUserAccount.swift in Sources */,
 				F79460911F58207300C7FD2C /* NSArray+Log.m in Sources */,
 				F75D3B6B1F58D97600F0D544 /* BXFNewFeatureView.swift in Sources */,
 				F79460991F58207300C7FD2C /* UILabel+CZAddition.m in Sources */,
+				F7A05A081F591BA200B86E7A /* BXFHappyViewController.swift in Sources */,
 				F75D3B791F58FF1400F0D544 /* HYTitleStyle.swift in Sources */,
 				F7142D241F56CA4D00E4ECD0 /* Bundle+Extensions.swift in Sources */,
 				F79460921F58207300C7FD2C /* NSAttributedString+CZAdditon.m in Sources */,
 				F79FE65A1F56A6FA00591B6E /* AppDelegate.swift in Sources */,
 				F79460951F58207300C7FD2C /* NSString+CZHash.m in Sources */,
+				F7A059F31F59165B00B86E7A /* BXFHappyType.swift in Sources */,
 				F75D3B771F58FF1400F0D544 /* HYPageCollectionView.swift in Sources */,
 				F7142D1E1F56B35C00E4ECD0 /* BXFMainViewController.swift in Sources */,
 				F794609A1F58207300C7FD2C /* UIScreen+CZAddition.m in Sources */,
 				F7142D131F56B29500E4ECD0 /* BXFCommon.swift in Sources */,
+				F7A05A061F591BA200B86E7A /* BXFFamilyViewController.swift in Sources */,
 				F75D3B6D1F58E7BF00F0D544 /* BXFBaseViewController.swift in Sources */,
-				F75D3B861F5904E900F0D544 /* BXFFamilyViewController.swift in Sources */,
 				F79460971F58207300C7FD2C /* UIButton+CZAddition.m in Sources */,
 				F794609C1F58207300C7FD2C /* UIViewController+CZAddition.m in Sources */,
 				F79460931F58207300C7FD2C /* NSObject+CZRuntime.m in Sources */,
 				F75D3B751F58FF1400F0D544 /* HYContentFlowLayout.swift in Sources */,
-				F75D3B841F5903F100F0D544 /* BXFHappyViewController.swift in Sources */,
 				F794609B1F58207300C7FD2C /* UIView+CZAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,3 +20,10 @@ let BXFWXSecret = ""
 
 //微信回调URL
 let BXFWXRedirectURL = ""
+
+
+let kScreenW = UIScreen.main.bounds.width
+let kScreenH = UIScreen.main.bounds.height
+
+let kNavigationBarH : CGFloat = 44
+let kStatusBarH : CGFloat = 20
