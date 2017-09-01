@@ -39,7 +39,7 @@ extension BXFBaseViewController{
         
         automaticallyAdjustsScrollViewInsets = false
         
-        
+        setupTableView()
         
     }
     

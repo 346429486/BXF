@@ -8,6 +8,9 @@
 
 import UIKit
 
+//可重用cell id
+fileprivate let happyCellId = "happyCellId"
+
 class BXFAnchorViewController: BXFBaseViewController {
     
     // MARK:-对外属性
@@ -15,7 +18,22 @@ class BXFAnchorViewController: BXFBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor.randomColor()
 
     }
     
+}
+
+// MARK:-表格数据源方法
+extension BXFAnchorViewController{
+    
+}
+// MARK:-设置界面
+extension BXFAnchorViewController {
+    
+    override func setupTableView() {
+        super.setupTableView()
+        
+        
+    }
 }

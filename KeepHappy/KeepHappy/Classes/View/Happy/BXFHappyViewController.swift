@@ -37,6 +37,7 @@ extension BXFHappyViewController{
          // FIXME:-设置滚动条标题
         let style = HYTitleStyle()
         style.isScrollEnable = false
+        style.isShowBottomLine = true
         let pageFrame = CGRect(x: 0, y: kNavigationBarH + kStatusBarH, width: kScreenW, height: kScreenH - kNavigationBarH - kStatusBarH - 44)
         let titles = happyTypes.map({$0.title})
         var childVcs = [BXFAnchorViewController]()
