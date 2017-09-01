@@ -46,6 +46,12 @@
 		F7A05A081F591BA200B86E7A /* BXFHappyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A05A031F591BA200B86E7A /* BXFHappyViewController.swift */; };
 		F7A05A091F591BA200B86E7A /* BXFProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A05A051F591BA200B86E7A /* BXFProfileViewController.swift */; };
 		F7A05A0B1F591F1100B86E7A /* types.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7A05A0A1F591F1100B86E7A /* types.plist */; };
+		F7A05A2F1F594C7D00B86E7A /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A05A2D1F594C7D00B86E7A /* CarouselView.swift */; };
+		F7A05A301F594C7D00B86E7A /* CarouselView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A05A2E1F594C7D00B86E7A /* CarouselView.xib */; };
+		F7A05A351F594D4D00B86E7A /* CarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A05A341F594D4D00B86E7A /* CarouselViewModel.swift */; };
+		F7A05A371F594D9700B86E7A /* CarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A05A361F594D9700B86E7A /* CarouselModel.swift */; };
+		F7A05A391F5978E600B86E7A /* UIImageView+WebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A05A381F5978E600B86E7A /* UIImageView+WebImage.swift */; };
+		F7A05A3B1F597D6600B86E7A /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A05A3A1F597D6600B86E7A /* UIImage+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +112,12 @@
 		F7A05A031F591BA200B86E7A /* BXFHappyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFHappyViewController.swift; sourceTree = "<group>"; };
 		F7A05A051F591BA200B86E7A /* BXFProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFProfileViewController.swift; sourceTree = "<group>"; };
 		F7A05A0A1F591F1100B86E7A /* types.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = types.plist; sourceTree = "<group>"; };
+		F7A05A2D1F594C7D00B86E7A /* CarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		F7A05A2E1F594C7D00B86E7A /* CarouselView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarouselView.xib; sourceTree = "<group>"; };
+		F7A05A341F594D4D00B86E7A /* CarouselViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselViewModel.swift; sourceTree = "<group>"; };
+		F7A05A361F594D9700B86E7A /* CarouselModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselModel.swift; sourceTree = "<group>"; };
+		F7A05A381F5978E600B86E7A /* UIImageView+WebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+WebImage.swift"; sourceTree = "<group>"; };
+		F7A05A3A1F597D6600B86E7A /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +196,9 @@
 		F7142D0B1F56B0A100E4ECD0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F7A05A321F594D2600B86E7A /* Happy */,
+				F7A05A311F594D2600B86E7A /* Family */,
+				F7A05A331F594D2600B86E7A /* Profile */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -223,6 +238,8 @@
 		F7142D0E1F56B18D00E4ECD0 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F7A05A381F5978E600B86E7A /* UIImageView+WebImage.swift */,
+				F7A05A3A1F597D6600B86E7A /* UIImage+Extensions.swift */,
 				F75D3B7B1F58FFBF00F0D544 /* UIColor-Extension.swift */,
 				F7142D231F56CA4D00E4ECD0 /* Bundle+Extensions.swift */,
 				F794604C1F57D09000C7FD2C /* AppDelegate+UM.swift */,
@@ -347,6 +364,7 @@
 			children = (
 				F7A05A0A1F591F1100B86E7A /* types.plist */,
 				F7A059F21F59165B00B86E7A /* BXFHappyType.swift */,
+				F7A05A361F594D9700B86E7A /* CarouselModel.swift */,
 			);
 			path = HappyModel;
 			sourceTree = "<group>";
@@ -369,6 +387,7 @@
 		F7A05A011F591BA200B86E7A /* Happy */ = {
 			isa = PBXGroup;
 			children = (
+				F7A05A2C1F594C7400B86E7A /* CarouselView */,
 				F7A05A031F591BA200B86E7A /* BXFHappyViewController.swift */,
 				F7A05A021F591BA200B86E7A /* BXFAnchorViewController.swift */,
 			);
@@ -379,6 +398,37 @@
 			isa = PBXGroup;
 			children = (
 				F7A05A051F591BA200B86E7A /* BXFProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F7A05A2C1F594C7400B86E7A /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				F7A05A2D1F594C7D00B86E7A /* CarouselView.swift */,
+				F7A05A2E1F594C7D00B86E7A /* CarouselView.xib */,
+			);
+			path = CarouselView;
+			sourceTree = "<group>";
+		};
+		F7A05A311F594D2600B86E7A /* Family */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Family;
+			sourceTree = "<group>";
+		};
+		F7A05A321F594D2600B86E7A /* Happy */ = {
+			isa = PBXGroup;
+			children = (
+				F7A05A341F594D4D00B86E7A /* CarouselViewModel.swift */,
+			);
+			path = Happy;
+			sourceTree = "<group>";
+		};
+		F7A05A331F594D2600B86E7A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -448,6 +498,7 @@
 			files = (
 				F7A05A0B1F591F1100B86E7A /* types.plist in Resources */,
 				F7142D201F56B35C00E4ECD0 /* main.json in Resources */,
+				F7A05A301F594C7D00B86E7A /* CarouselView.xib in Resources */,
 				F79FE6611F56A6FA00591B6E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,11 +583,13 @@
 				F7142D1F1F56B35C00E4ECD0 /* BXFNavigationController.swift in Sources */,
 				F75D3B781F58FF1400F0D544 /* HYPageView.swift in Sources */,
 				F75D3B7A1F58FF1400F0D544 /* HYTitleView.swift in Sources */,
+				F7A05A3B1F597D6600B86E7A /* UIImage+Extensions.swift in Sources */,
 				F75D3B761F58FF1400F0D544 /* HYContentView.swift in Sources */,
 				F7A05A091F591BA200B86E7A /* BXFProfileViewController.swift in Sources */,
 				F79460981F58207300C7FD2C /* UIColor+CZAddition.m in Sources */,
 				F794604B1F57949B00C7FD2C /* BXFNetworkManager.swift in Sources */,
 				F7142D271F56CF7500E4ECD0 /* BXFViewController.swift in Sources */,
+				F7A05A351F594D4D00B86E7A /* CarouselViewModel.swift in Sources */,
 				F7A05A071F591BA200B86E7A /* BXFAnchorViewController.swift in Sources */,
 				F79460771F581D4B00C7FD2C /* BXFUserAccount.swift in Sources */,
 				F79460911F58207300C7FD2C /* NSArray+Log.m in Sources */,
@@ -545,8 +598,11 @@
 				F7A05A081F591BA200B86E7A /* BXFHappyViewController.swift in Sources */,
 				F75D3B791F58FF1400F0D544 /* HYTitleStyle.swift in Sources */,
 				F7142D241F56CA4D00E4ECD0 /* Bundle+Extensions.swift in Sources */,
+				F7A05A371F594D9700B86E7A /* CarouselModel.swift in Sources */,
+				F7A05A391F5978E600B86E7A /* UIImageView+WebImage.swift in Sources */,
 				F79460921F58207300C7FD2C /* NSAttributedString+CZAdditon.m in Sources */,
 				F79FE65A1F56A6FA00591B6E /* AppDelegate.swift in Sources */,
+				F7A05A2F1F594C7D00B86E7A /* CarouselView.swift in Sources */,
 				F79460951F58207300C7FD2C /* NSString+CZHash.m in Sources */,
 				F7A059F31F59165B00B86E7A /* BXFHappyType.swift in Sources */,
 				F75D3B771F58FF1400F0D544 /* HYPageCollectionView.swift in Sources */,
