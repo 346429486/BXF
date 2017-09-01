@@ -27,6 +27,41 @@ class BXFMainViewController: UITabBarController {
 
 }
 
+// MARK:-新特性视图处理
+extension BXFMainViewController{
+    
+    fileprivate func setupNewfeatureView() {
+        
+        //判断是否登录
+        if !BXFNetworkManager.share.userLogon {
+            return
+        }
+         // FIXME:-添加新特性
+        //1如果更新，显示新特性，否则显示欢迎
+        
+        
+    }
+    
+    fileprivate var isNewVersion: Bool{
+        
+        // 1. 取当前的版本号 1.0.2
+        // print(Bundle.main().infoDictionary)
+       let currentVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
+        
+        // 2. 取保存在 `Document(iTunes备份)[最理想保存在用户偏好]` 目录中的之前的版本号 "1.0.2"
+        let path: String = ("version" as NSString).cz_appendDocumentDir()
+        let sandboxVersion = (try? String(contentsOfFile: path)) ?? ""
+        
+        
+        // 3. 将当前版本号保存在沙盒 1.0.2
+        _ = try? currentVersion.write(toFile: path, atomically: true, encoding: .utf8)
+        
+        // 4. 返回两个版本号`是否一致` not new
+        return currentVersion != sandboxVersion
+        
+    }
+}
+
 // MARK:-UITabBarControllerDelegate
 extension BXFMainViewController : UITabBarControllerDelegate{
     

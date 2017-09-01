@@ -11,18 +11,18 @@ import YYModel
 
 private let accountFile: NSString = "useraccount.json"
 class BXFUserAccount: NSObject {
-
+    
+    //访问令牌
+    var access_token: String?
     //用户唯一标识
     var uid: String?
-    
     //用户昵称
     var name: String?
-    
     //用户性别
     var gender: String?
-    
     //用户头像
     var iconurl : String?
+    
     override var description: String{
         return yy_modelDescription()
     }
@@ -39,6 +39,7 @@ class BXFUserAccount: NSObject {
         }
         yy_modelSet(withJSON: dict ?? [:])
         
+         // FIXME:-判断token是否过期
         
     }
     

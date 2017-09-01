@@ -25,6 +25,14 @@ class BXFNetworkManager: AFHTTPSessionManager {
         return instance
     }()
     
+    //用户账户的懒加载属性
+    lazy var userAccount = BXFUserAccount()
+    
+    //用户登录标记
+    var userLogon : Bool {
+        return (userAccount.access_token != nil)
+    }
+    
     /// 封装 AFN 的 GET / POST 请求
     ///
     /// - parameter method:     GET / POST

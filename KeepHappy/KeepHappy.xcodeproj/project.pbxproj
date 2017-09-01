@@ -14,6 +14,7 @@
 		F7142D201F56B35C00E4ECD0 /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = F7142D1D1F56B35C00E4ECD0 /* main.json */; };
 		F7142D241F56CA4D00E4ECD0 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7142D231F56CA4D00E4ECD0 /* Bundle+Extensions.swift */; };
 		F7142D271F56CF7500E4ECD0 /* BXFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7142D261F56CF7500E4ECD0 /* BXFViewController.swift */; };
+		F75D3B6B1F58D97600F0D544 /* BXFNewFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75D3B6A1F58D97600F0D544 /* BXFNewFeatureView.swift */; };
 		F794604B1F57949B00C7FD2C /* BXFNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794604A1F57949B00C7FD2C /* BXFNetworkManager.swift */; };
 		F794604D1F57D09000C7FD2C /* AppDelegate+UM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794604C1F57D09000C7FD2C /* AppDelegate+UM.swift */; };
 		F79460771F581D4B00C7FD2C /* BXFUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79460761F581D4B00C7FD2C /* BXFUserAccount.swift */; };
@@ -43,6 +44,7 @@
 		F7142D1D1F56B35C00E4ECD0 /* main.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main.json; sourceTree = "<group>"; };
 		F7142D231F56CA4D00E4ECD0 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
 		F7142D261F56CF7500E4ECD0 /* BXFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFViewController.swift; sourceTree = "<group>"; };
+		F75D3B6A1F58D97600F0D544 /* BXFNewFeatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFNewFeatureView.swift; sourceTree = "<group>"; };
 		F794604A1F57949B00C7FD2C /* BXFNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFNetworkManager.swift; sourceTree = "<group>"; };
 		F794604C1F57D09000C7FD2C /* AppDelegate+UM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+UM.swift"; sourceTree = "<group>"; };
 		F794604E1F57F63E00C7FD2C /* KeepHappy-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KeepHappy-Bridge.h"; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				F7142D1A1F56B35C00E4ECD0 /* MainController */,
+				F75D3B691F58D90700F0D544 /* NewFeature */,
 				F7142D251F56CF4B00E4ECD0 /* 测试 */,
 			);
 			path = Main;
@@ -234,6 +237,14 @@
 				F7142D261F56CF7500E4ECD0 /* BXFViewController.swift */,
 			);
 			path = "测试";
+			sourceTree = "<group>";
+		};
+		F75D3B691F58D90700F0D544 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				F75D3B6A1F58D97600F0D544 /* BXFNewFeatureView.swift */,
+			);
+			path = NewFeature;
 			sourceTree = "<group>";
 		};
 		F79460751F581D0900C7FD2C /* Model */ = {
@@ -424,6 +435,7 @@
 				F7142D271F56CF7500E4ECD0 /* BXFViewController.swift in Sources */,
 				F79460771F581D4B00C7FD2C /* BXFUserAccount.swift in Sources */,
 				F79460911F58207300C7FD2C /* NSArray+Log.m in Sources */,
+				F75D3B6B1F58D97600F0D544 /* BXFNewFeatureView.swift in Sources */,
 				F79460991F58207300C7FD2C /* UILabel+CZAddition.m in Sources */,
 				F7142D241F56CA4D00E4ECD0 /* Bundle+Extensions.swift in Sources */,
 				F79460921F58207300C7FD2C /* NSAttributedString+CZAdditon.m in Sources */,
