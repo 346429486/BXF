@@ -119,19 +119,21 @@ extension BXFMainViewController {
         // 1. 取得字典内容
         guard let clsName = dict["clsName"] as? String,
         let title = dict["title"] as? String,
+            
+             // FIXME:-图标的图像更改
         let imageName = dict["imageName"] as? String,
+            
         let cls = NSClassFromString(Bundle.main.namespace + "." + clsName) as? UIViewController.Type
         else {
             return UIViewController()
         }
         
         // 2. 创建视图控制器
-//        let vc = cls.init()
-        let vc = BXFViewController()
+        let vc = cls.init()
         vc.title = title
-//        vc.tabBarItem.image = UIImage(named: "tabbar_" + imageName)
-//        vc.tabBarItem.selectedImage = UIImage(named: "tabbar_" + imageName + "_selected")?.withRenderingMode(.alwaysOriginal)
-//        
+        vc.tabBarItem.image = UIImage(named: "tabbar_" + imageName)
+        vc.tabBarItem.selectedImage = UIImage(named: "tabbar_" + imageName + "_selected")?.withRenderingMode(.alwaysOriginal)
+//
         //设置 tabbar 的标题字体（大小）
         vc.tabBarItem.setTitleTextAttributes(
             [NSForegroundColorAttributeName: UIColor.orange],
@@ -143,7 +145,6 @@ extension BXFMainViewController {
         
         // 实例化导航控制器的时候，会调用 push 方法将 rootVC 压栈
         let nav = BXFNavigationController(rootViewController: vc)
-        // 1. 取得字典内容
         return nav
 
     }
