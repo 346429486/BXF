@@ -13,7 +13,7 @@ class CarouselViewModel {
     lazy var carousels : [CarouselModel] = [CarouselModel]()
     
     func loadCarouselData(_ complection : @escaping () -> ()) {
-        
+        // FIXME:无限轮播内容下载
         complection()
     }
 }

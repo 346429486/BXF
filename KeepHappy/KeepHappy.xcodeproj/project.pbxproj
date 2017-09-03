@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75CE71A21F5C078400E01113 /* BXFHappyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE71A11F5C078400E01113 /* BXFHappyListViewModel.swift */; };
+		75CE71A41F5C080D00E01113 /* BXFHappyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE71A31F5C080D00E01113 /* BXFHappyViewModel.swift */; };
+		75CE71A61F5C08EF00E01113 /* BXFHappyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE71A51F5C08EF00E01113 /* BXFHappyModel.swift */; };
 		90E02D7C0BB5734D1B293446 /* Pods_KeepHappy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B510BE70698C836A2241AE9 /* Pods_KeepHappy.framework */; };
 		F7142D131F56B29500E4ECD0 /* BXFCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7142D121F56B29500E4ECD0 /* BXFCommon.swift */; };
 		F7142D1E1F56B35C00E4ECD0 /* BXFMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7142D1B1F56B35C00E4ECD0 /* BXFMainViewController.swift */; };
@@ -57,6 +60,9 @@
 /* Begin PBXFileReference section */
 		5ACDA91F91F428036A7E57BC /* Pods-KeepHappy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepHappy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeepHappy/Pods-KeepHappy.debug.xcconfig"; sourceTree = "<group>"; };
 		6B510BE70698C836A2241AE9 /* Pods_KeepHappy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeepHappy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75CE71A11F5C078400E01113 /* BXFHappyListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFHappyListViewModel.swift; sourceTree = "<group>"; };
+		75CE71A31F5C080D00E01113 /* BXFHappyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFHappyViewModel.swift; sourceTree = "<group>"; };
+		75CE71A51F5C08EF00E01113 /* BXFHappyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFHappyModel.swift; sourceTree = "<group>"; };
 		CD779101496741572197CC20 /* Pods-KeepHappy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepHappy.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeepHappy/Pods-KeepHappy.release.xcconfig"; sourceTree = "<group>"; };
 		F7142D121F56B29500E4ECD0 /* BXFCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFCommon.swift; sourceTree = "<group>"; };
 		F7142D1B1F56B35C00E4ECD0 /* BXFMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BXFMainViewController.swift; sourceTree = "<group>"; };
@@ -365,6 +371,7 @@
 				F7A05A0A1F591F1100B86E7A /* types.plist */,
 				F7A059F21F59165B00B86E7A /* BXFHappyType.swift */,
 				F7A05A361F594D9700B86E7A /* CarouselModel.swift */,
+				75CE71A51F5C08EF00E01113 /* BXFHappyModel.swift */,
 			);
 			path = HappyModel;
 			sourceTree = "<group>";
@@ -422,6 +429,8 @@
 			isa = PBXGroup;
 			children = (
 				F7A05A341F594D4D00B86E7A /* CarouselViewModel.swift */,
+				75CE71A11F5C078400E01113 /* BXFHappyListViewModel.swift */,
+				75CE71A31F5C080D00E01113 /* BXFHappyViewModel.swift */,
 			);
 			path = Happy;
 			sourceTree = "<group>";
@@ -534,6 +543,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-KeepHappy/Pods-KeepHappy-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
@@ -542,6 +552,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
@@ -577,6 +588,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F794604D1F57D09000C7FD2C /* AppDelegate+UM.swift in Sources */,
+				75CE71A21F5C078400E01113 /* BXFHappyListViewModel.swift in Sources */,
 				F75D3B7C1F58FFBF00F0D544 /* UIColor-Extension.swift in Sources */,
 				F79460961F58207300C7FD2C /* NSString+CZPath.m in Sources */,
 				F79460941F58207300C7FD2C /* NSString+CZBase64.m in Sources */,
@@ -588,7 +600,9 @@
 				F7A05A091F591BA200B86E7A /* BXFProfileViewController.swift in Sources */,
 				F79460981F58207300C7FD2C /* UIColor+CZAddition.m in Sources */,
 				F794604B1F57949B00C7FD2C /* BXFNetworkManager.swift in Sources */,
+				75CE71A61F5C08EF00E01113 /* BXFHappyModel.swift in Sources */,
 				F7142D271F56CF7500E4ECD0 /* BXFViewController.swift in Sources */,
+				75CE71A41F5C080D00E01113 /* BXFHappyViewModel.swift in Sources */,
 				F7A05A351F594D4D00B86E7A /* CarouselViewModel.swift in Sources */,
 				F7A05A071F591BA200B86E7A /* BXFAnchorViewController.swift in Sources */,
 				F79460771F581D4B00C7FD2C /* BXFUserAccount.swift in Sources */,
