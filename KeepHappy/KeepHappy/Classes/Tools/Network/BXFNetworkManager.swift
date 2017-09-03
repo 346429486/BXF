@@ -17,7 +17,7 @@ enum BXFHTTPMethod {
 //网络管理工具
 class BXFNetworkManager: AFHTTPSessionManager {
 
-    static let share : BXFNetworkManager = {
+    static let shared : BXFNetworkManager = {
         
         let instance = BXFNetworkManager()
         instance.responseSerializer.acceptableContentTypes?.insert("text/plain")

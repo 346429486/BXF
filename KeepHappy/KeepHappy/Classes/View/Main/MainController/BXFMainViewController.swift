@@ -33,7 +33,7 @@ extension BXFMainViewController{
     fileprivate func setupNewfeatureView() {
         
         //判断是否登录
-        if !BXFNetworkManager.share.userLogon {
+        if !BXFNetworkManager.shared.userLogon {
             return
         }
          // FIXME:-添加新特性
