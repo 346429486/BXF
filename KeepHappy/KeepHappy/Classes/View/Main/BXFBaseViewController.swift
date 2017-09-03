@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MJRefresh
 
 class BXFBaseViewController: UIViewController {
     
@@ -23,10 +24,26 @@ class BXFBaseViewController: UIViewController {
         setupUI()
         
     }
+    
+    //注销通知
+    deinit {
+        
+    }
+    
+    //上拉刷新
+    @objc fileprivate func loadNewStatuses(){
+        loadData()
+    }
+    //下拉加载
+    @objc fileprivate func loadMoreStatuses(){
+        
+        isPullup = true
+        loadData()
+    }
     //加载数据
     func loadData() {
         //如果子类不实现任何方法，默认关闭刷新控件
-        refreshControl?.endRefreshing()
+        tableView?.mj_header.endRefreshing()
     }
 
 }
@@ -58,9 +75,13 @@ extension BXFBaseViewController{
         tableView?.scrollIndicatorInsets = tableView!.contentInset
         
         //设置刷新控件
-        refreshControl = UIRefreshControl()
-        tableView?.addSubview(refreshControl!)
-        refreshControl?.addTarget(self, action: #selector(loadData), for: .valueChanged)
+        let header = MJRefreshNormalHeader.init(refreshingTarget: self, refreshingAction: #selector(loadNewStatuses))
+        tableView?.mj_header = header
+        tableView?.mj_header.beginRefreshing()
+        
+        let footer = MJRefreshAutoFooter(refreshingTarget: self, refreshingAction: #selector(loadMoreStatuses))
+        tableView?.mj_footer = footer
+        
     }
 }
 
@@ -79,9 +100,6 @@ extension BXFBaseViewController: UITableViewDataSource,UITableViewDelegate{
         return 10
     }
     
-    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        
-    }
     
 }
 
